@@ -56,7 +56,7 @@ for (let u = 0; u <= schedule.length - 1; u++) {
     let imgP = newShow.imgPath;
     if (imgP !== '') {
 
-        $('#upcoming').append("<img style=\"width: 100%\" class=' responsive-img' src='img/soon/" + imgP + "'>")
+        $('#upcoming').append("<img class='responsive-img, centered-image' src='img/soon/" + imgP + "'>")
     }
     for (let c = 0; c <= newShow.credit.length - 1; c++) {
         let creditLine = newShow.credit[c];
